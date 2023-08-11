@@ -12,7 +12,7 @@ const init = () => {
 
 const Rnum = Math.floor(Math.random() * 20) + 1;
 const percent = document.getElementById("per")
-percent.innerHTML=`%${Rnum}`;
+percent.innerHTML=`${Rnum}%`;
 
 //initially mouse X and mouse Y positions are 0
 let mouseX = 0;
